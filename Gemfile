@@ -13,8 +13,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'devise'
 # Use Twitter Bootstrap for Rails for rapid prototyping
 gem 'twitter-bootstrap-rails'
-
+# To generate views for Devise and Bootstrap:
 gem 'devise-bootstrap-views'
+# Use Stock Quote to fetch stock prices from Name
+gem 'stock_quote'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
