@@ -23,12 +23,12 @@
                   class: "btn btn-xs btn-success", method: :post %>
       <% else %>
         <span class="label label-default">
-          Stock cannot be added because you have already added
+          Stock cannot be added because
           <% if !current_user.under_stock_limit? %>
-            10 stocks.
+            you have already added 10 stocks.
           <% end %>
           <% if current_user.stock_already_added?(@stock.ticker) %>
-            this stock to your portfolio.
+            this stock is already in your portfolio.
           <% end %>
         </span>
       <% end %>
