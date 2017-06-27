@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'friendships/destroy'
+
   get 'stocks/search'
 
   get 'users/my_portfolio'
